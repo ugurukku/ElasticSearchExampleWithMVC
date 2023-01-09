@@ -22,6 +22,9 @@ public class Product {
     @Field(type = FieldType.Double, name = "price")
     private double price;
 
+    public Product() {
+    }
+
     public Product(String id, String name, String description, double price) {
         this.id = id;
         this.name = name;
